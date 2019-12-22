@@ -30,7 +30,6 @@ class Launches extends Component {
                 </div>
               );
             if (error) console.log(error);
-            console.log(data);
 
             return (
               <React.Fragment>
