@@ -25,8 +25,8 @@ class Launches extends Component {
           {({ loading, error, data }) => {
             if (loading)
               return (
-                <div class="spinner-grow" role="status">
-                  <span class="sr-only">Loading...</span>
+                <div className="spinner-grow" role="status">
+                  <span className="sr-only">Loading...</span>
                 </div>
               );
             if (error) console.log(error);
